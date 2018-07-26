@@ -3,8 +3,6 @@ package com.demo.Util;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-
 /**
  * application.properties在spring boot启动时默认加载此文件
  * 自定义属性文件通过@PropertySource加载
