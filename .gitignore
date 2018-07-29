@@ -6,3 +6,6 @@
 .settings/
 *.class
 target/
+out/
+.gradle
+.gradle/
