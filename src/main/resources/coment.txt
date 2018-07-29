@@ -8,3 +8,15 @@
    实现Filter接口
    注解 @Configuration
    注解 @WebFilter(urlPatterns = "/*", filterName = "urlFilter")
+
+--------------------------
+二、@Value的使用，springBoot在启动的时候会默认加载application.properties文件；
+
+--------------------------
+三、springBoot和mybatis的搭建（mysql数据库）
+1、引入相关jar包；
+2、application.properties中对数据库连接池、mybatis进行相关配置；
+3、创建并执行sql;
+4、配置generatorConfig.xml文件
+5、运行gradle中 mybatis generator 的，生成 xml\model\mapper文件；
+6、controller／service等。增加，然后查询

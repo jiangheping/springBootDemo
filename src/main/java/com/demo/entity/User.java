@@ -6,10 +6,20 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class User {
+
+    private int id;
+
     private String name;
-    private int age;
+
+    private Integer age;
+
+    private String password;
+
+    private String phone;
+
+
 }
